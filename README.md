@@ -26,11 +26,8 @@ This project brings Albert Einstein and Niels Bohr to life using **Retrieval-Aug
 
 ## 🚀 Getting Started
 
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
-
-
+Install dependencies:  
+`pip install -r requirements.txt`
 
 > Note: Use `faiss-gpu` instead of `faiss-cpu` if you're on a GPU machine.
 
@@ -42,7 +39,7 @@ pip install -r requirements.txt
 
 All text corpora and questions are included under `data/`.
 
-- `*_cleaned_final.txt`: Public domain excerpts cleaned for embedding
+- `*_cleaned_final.txt`: Public domain excerpts cleaned for embedding  
 - `*_300_questions.txt`: Persona-aligned prompts to probe the model
 
 > These writings are from public archives and are used strictly for educational and research purposes.
@@ -52,6 +49,7 @@ All text corpora and questions are included under `data/`.
 - Hugging Face Transformers & Sentence-Transformers  
 - Facebook AI (for the original RAG framework)  
 - Archive.org, Project Gutenberg (for historical text sourcing)
+
 
 
 
