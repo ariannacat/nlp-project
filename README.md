@@ -28,7 +28,9 @@ This project brings Albert Einstein and Niels Bohr to life using **Retrieval-Aug
 
 1. Install dependencies:
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+
+
 
 > Note: Use `faiss-gpu` instead of `faiss-cpu` if you're on a GPU machine.
 
